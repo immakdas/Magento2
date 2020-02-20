@@ -49,6 +49,7 @@ RUN docker-php-ext-configure \
   	pdo_mysql \
   	soap \
   	xsl \
+	iconv \
   	zip
 
 # Install oAuth
