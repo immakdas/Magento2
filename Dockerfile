@@ -4,6 +4,9 @@ MAINTAINER Rafael Corrêa Gomes <rafaelcgstz@gmail.com>
 
 ENV XDEBUG_PORT 9000
 
+# PHP_INI_DIR to be symmetrical with official php docker image
+ENV PHP_INI_DIR /etc/php/7.2
+
 # Install System Dependencies
 
 RUN apt-get update \
